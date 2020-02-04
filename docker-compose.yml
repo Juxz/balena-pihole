@@ -22,10 +22,6 @@ services:
       TZ: 'Europe/Luxembourg'
       WEBPASSWORD: 'admin'
       WEB_PORT: 8089
-    # Volumes store your data between container upgrades
-    #volumes:
-    #   - './etc-pihole/:/etc/pihole/'
-    #   - './etc-dnsmasq.d/:/etc/dnsmasq.d/'
     dns:
       - 127.0.0.1
       - 1.1.1.1
